@@ -3,7 +3,8 @@
 -- Questão 1
 -- Criada uma situação em que esse banco de dados pertence a uma seguradora
 
--- 
+-- Seguro representa o contrato que o segurado faz para seu automovel de forma
+-- que contem informações do seu segurado e do automovel, alem dos serviços prestados
 CREATE TABLE Seguro (
 Contrato SERIAL,
 Segurado_Cpf CHAR(7),
@@ -20,6 +21,7 @@ Marca VARCHAR(50),
 Ano INTEGER,
 Segurado_cpf INTEGER
 );
+
 
 CREATE TABLE Segurado (
 Cpf INTEGER,
